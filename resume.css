@@ -1,0 +1,23 @@
+.resume {
+    width: 90%;
+    background: #222;
+    border-radius: 10px;
+    border-top: 4px solid orangered;
+    border-bottom: 4px solid orangered;
+    margin-top: 50px;
+    z-index: 1;
+}
+@media (min-width:700px) {
+    .resume {
+        width: 40%;
+    }
+}
+meter {
+    color: orange;
+    width: 90%;
+    accent-color: orange;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-margin: 60rem;
+}

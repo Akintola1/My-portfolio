@@ -1,0 +1,35 @@
+.service {
+    width: 90%;
+    background: #222;
+    border-radius: 10px;
+    border-top: 4px solid orangered;
+    border-bottom: 4px solid orangered;
+    margin-top: 50px;
+    z-index: 1;
+}
+@media (min-width:700px) {
+    .service {
+        width: 40%;
+    }
+}
+
+.project{
+    width: 90%;
+    background: #222;
+    border-radius: 10px;
+    border-top: 4px solid orangered;
+    border-bottom: 4px solid orangered;
+    margin-top: 50px;
+    z-index: 1;
+}
+@media (min-width:700px) {
+    .project {
+        width: 40%;
+    }
+}
+
+.project .topic {
+    font-size: 80px;
+    color: orange;
+    text-align: center;
+}

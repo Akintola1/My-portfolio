@@ -1,0 +1,110 @@
+.contact {
+    width: 90%;
+    background: #222;
+    border-radius: 10px;
+    border-top: 4px solid orangered;
+    border-bottom: 4px solid orangered;
+    margin-top: 50px;
+    z-index: 1;
+    overflow: hidden;
+}
+@media (min-width:700px) {
+    .contact {
+        width: 40%;
+    }
+}
+
+.contacts {
+    text-align: center;
+}
+.contact h2 {
+    color: orangered;
+}
+.box {
+    height: 70px;
+    width: 90%;
+    border: 2px solid orange;
+}
+.form {
+    width: 90%;
+    background: #222;
+    border-radius: 10px;
+    border-top: 4px solid orangered;
+    border-bottom: 4px solid orangered;
+    margin-top: 50px;
+    z-index: 1;
+    overflow: hidden;
+}
+@media (min-width:700px) {
+    .form {
+        width: 40%;
+    }
+}
+.forms {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 100px 0 0;
+    width: 50%;
+    background: linear-gradient(45deg, orangered, orange);
+}
+form {
+    text-align: center;
+    margin-top: 50px;
+    width: 90%;
+    height: 500px;
+}
+label {
+    position: absolute;
+    color: orangered;
+    font-weight: bold;
+    font-size: 13pt;
+    left: 0;
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-top: 80px;
+    background: #fff;
+    transition: .50s;
+}
+input:focus + label , input:valid + label , textarea:valid +label , textarea:focus + label {
+    margin-top: 55px;
+    letter-spacing: 5px;
+    border-radius: 70px;
+
+    background: #222;
+}
+input,button, textarea {
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+textarea {
+    height: 90px;
+    text-indent: 30px;
+    font-size: 15pt;
+}
+input {
+    border: 2px solid orangered;
+    height: 50px;
+padding: 10px;
+    font-size: 15pt;
+}
+input:focus, textarea:focus {
+    box-shadow: .3px .3px 3px 3px orange;
+}
+button {
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    background: linear-gradient(45deg, orange, orangered);
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+textarea:focus + .tl, textarea:valid + .tl{
+    margin-top: 35px;
+}
